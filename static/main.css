@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.6;
+  position: relative;
+  background-size: cover;
+  background-position: 50%;
+  height: 110%;
+  width: 100%;
+  background-color: #d7d9de;
+}
+
+#atas {
+  padding: 0px 10px;
+  background-color: rgb(255, 213, 0);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+
+.page {
+  width: 100%;
+  height: 110%;
+  background: rgb(255, 255, 255);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.yellow {
+  width: 220px;
+  height: 100%;
+  background: linear-gradient(rgb(255, 213, 0), rgb(255, 213, 0));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+  overflow: hidden;
+}
+
+.paragraf {
+  width: 490px;
+  color: rgb(255, 213, 0);
+  position: absolute;
+  top: 19px;
+  left: 480px;
+  font-family: roboto;
+  font-weight: Extra Bold;
+  font-size: 35px;
+  opacity: 1;
+  text-align: left;
+  line-height: 1.2;
+}
+.paragraf2 {
+  width: 800px;
+  position: absolute;
+  top: 210px;
+  left: 480px;
+  line-height: 15;
+}
+
+.images {
+  width: 350px;
+  height: 680px;
+  background: url("../static/v312_2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
